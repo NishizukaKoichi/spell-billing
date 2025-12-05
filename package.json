@@ -1,0 +1,16 @@
+{
+  "name": "spell-billing",
+  "version": "0.1.0",
+  "description": "Spell Billing & Usage Tracking",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest"
+  },
+  "keywords": ["spell", "billing", "usage", "stripe"],
+  "author": "",
+  "license": "MIT"
+}
